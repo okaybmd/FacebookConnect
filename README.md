@@ -56,6 +56,12 @@ If you plan on rolling this out on Android, please note that you will need to [g
 
 If using this plugin on Adobe PhoneGap Build you can ignore the instructions below and go straight to the 
 PhoneGap Build documentation available [here] (https://build.phonegap.com/docs/plugins#facebookconnect).
+```xml
+<gap:plugin name="com.phonegap.plugins.okaybmd.facebookconnect" version="1.4.5" source="plugins.cordova.io">
+	<param name="APP_ID" value="xxxxxxxxxxx" />
+	<param name="APP_NAME" value="xxxxx" />
+</gap:plugin>
+```
 
 ## Manual Android Installation
 
